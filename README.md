@@ -17,3 +17,7 @@
 ## API
 
 - [REST API: ресурс "Проекты"](api/api-methods/homyroom-erp-projects-api.md)
+
+## Модели данных
+
+- [ERD: модель данных системы умного дома](data-models/erd/)
