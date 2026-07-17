@@ -4,7 +4,6 @@
 
 ## Диаграммы
 
-- [BPMN: автопролонгация страхового полиса](diagrams/bpmn/insurance-policy-auto-renewal.png)
 - [Use Case: менеджер ERP-системы для ремонтно-строительной компании](diagrams/uml/use-case/)
 
 ## Требования
