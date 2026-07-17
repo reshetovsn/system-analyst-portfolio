@@ -63,23 +63,10 @@
 
 ```json
 {
-  "id": 1,
+  "id": number,
   "name": "string",
-  "estimates": [
-    {
-      "id": 1,
-      "name": "string",
-      "status": "draft",
-      "full_price_project": 100000
-    }
-  ],
-  "dictionaries": [
-    {
-      "id": 1,
-      "name": "string",
-      "work_type": "work"
-    }
-  ]
+  "estimates": EstimateShortDTO[],
+  "dictionaries": DictionaryShortDTO[]
 }
 ```
 
@@ -101,9 +88,9 @@
 
 ```json
 {
-  "id": 1,
+  "id": number,
   "name": "string",
-  "open": false,
+  "open": boolean,
   "estimates": [],
   "dictionaries": []
 }
