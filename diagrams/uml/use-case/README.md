@@ -1,0 +1,12 @@
+# Use Case: менеджер ERP-системы
+
+Пример диаграммы Use Case для роли менеджера в ERP-системе управления проектами компании по ремонту и строительству.
+
+Диаграмма отражает основные функции менеджера при работе с проектами, сметами, закупками и отчетностью.
+
+## Файлы
+
+- [homyroom-erp-manager-use-case.jpg](homyroom-erp-manager-use-case.jpg) — изображение диаграммы.
+- [homyroom-erp-manager-use-case.drawio.xml](homyroom-erp-manager-use-case.drawio.xml) — исходник диаграммы draw.io.
+
+![Use Case: менеджер ERP-системы](homyroom-erp-manager-use-case.jpg)
