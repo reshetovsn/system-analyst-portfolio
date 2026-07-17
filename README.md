@@ -9,6 +9,7 @@
 ## Требования
 
 - [Функциональные требования: управление проектом и отчеты по работам](requirements/functional-requirements/homyroom-erp-project-and-work-reports.md)
+- [Нефункциональные требования: атрибуты качества ERP-системы](requirements/non-functional-requirements/homyroom-erp-quality-attributes.md)
 - [Use Case: контроль за выполнением работ и утверждение отчетности](requirements/use-cases/homyroom-erp-report-approval.md)
 
 ## API
