@@ -7,6 +7,5 @@
 ## Файлы
 
 - [homyroom-erp-manager-use-case.jpg](homyroom-erp-manager-use-case.jpg) — изображение диаграммы.
-- [homyroom-erp-manager-use-case.drawio.xml](homyroom-erp-manager-use-case.drawio.xml) — исходник диаграммы draw.io.
 
 ![Use Case: менеджер ERP-системы](homyroom-erp-manager-use-case.jpg)
