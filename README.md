@@ -14,4 +14,3 @@
 ## API
 
 - [REST API: ресурс "Проекты"](api/api-methods/homyroom-erp-projects-api.md)
-- [DTO: краткие модели смет и справочников](api/api-methods/homyroom-erp-projects-dto.md)
