@@ -65,8 +65,21 @@
 {
   "id": number,
   "name": "string",
-  "estimates": EstimateShortDTO[],
-  "dictionaries": DictionaryShortDTO[]
+  "estimates": [
+    {
+      "id": number,
+      "name": "string",
+      "status": "string (draft/work/archive)",
+      "full_price_project": number
+    }
+  ],
+  "dictionaries": [
+    {
+      "id": number,
+      "name": "string",
+      "work_type": "string (work/material)"
+    }
+  ]
 }
 ```
 
@@ -77,14 +90,17 @@
 | Метод | POST |
 | URL | `/api/v1/projects/` |
 | Описание | Инициализация нового строительного объекта. |
-| Тело запроса | JSON |
 | Ответ | `201 Created` |
+
+Тело запроса:
 
 ```json
 {
   "name": "string"
 }
 ```
+
+Тело ответа:
 
 ```json
 {
