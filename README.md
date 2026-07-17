@@ -4,7 +4,7 @@
 
 ## Диаграммы
 
-- [Sequence: авторизация пользователя](diagrams/uml/sequence/course-marketplace-auth-sequence.png)
+- [Sequence: авторизация пользователя](diagrams/uml/sequence/)
 - [State Machine: состояния отчета при формировании](diagrams/uml/state-machine/homyroom-erp-report-state-machine.jpg)
 - [Use Case: менеджер ERP-системы для ремонтно-строительной компании](diagrams/uml/use-case/)
 
