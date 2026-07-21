@@ -23,20 +23,20 @@ BE -> DB ++ : Найти пользователя
 == Поиск по базе / верификация пароля ==
 alt пользователь не найден
 DB --> BE  : пользователь не найден
-BE --> FE ++ : 401 Unauthorized\nНеверный логин или пароль
+BE --> FE ++ : 401 Unauthorized \nНеверный логин или пароль
 FE --> client -- : Отдает уведомление
 else пользователь найден
 DB --> BE -- : данные пользователя ($hash) + RBAC
 BE -> BE : Верификация пароля по $hash
 alt пароли не совпадают
-BE --> FE ++ : 401 Unauthorized\nНеверный логин или пароль
+BE --> FE ++ : 401 Unauthorized \nНеверный логин или пароль
 FE --> client -- : Отдает уведомление
 else пароли совпадают
 BE -> BE : Генерация A1 + R1
 BE -> DB ++ : Сохранить hash R1 для user_id
 DB --> BE -- : OK
-BE --> FE --++ : 200 OK\nBody: A1\nSet-Cookie: R1; HttpOnly; Secure
-FE -> FE : Сохранить A1 в памяти\nБраузер сохраняет R1 в cookie
+BE --> FE --++ : 200 OK \nBody: A1 \nSet-Cookie: R1; HttpOnly; Secure
+FE -> FE : Сохранить A1 в памяти \nБраузер сохраняет R1 в cookie
 FE --> client -- : Редирект на страницу пользователя
 end
 end
